@@ -1,0 +1,79 @@
+.aries
+{
+  --sign-color: #DD2D4A;
+}
+
+.taurus
+{
+  --sign-color: #FFE0B5;
+}
+
+.gemini
+{
+  --sign-color: #A07178;
+}
+
+.cancer
+{
+  --sign-color: #99D5C9;
+}
+
+.leo
+{
+  --sign-color: #F26A8D;
+}
+
+.virgo
+{
+  --sign-color: #EDE580;
+}
+
+.libra
+{
+  --sign-color: #E6CCBE;
+}
+
+.scorpio
+{
+  --sign-color: #6C969D;
+}
+
+.sagittarius
+{
+  --sign-color: #DD2D4A;
+}
+
+.capricorn
+{
+  --sign-color: #A4AF69;
+}
+
+.aquarius
+{
+  --sign-color: #776274;
+}
+
+.pisces
+{
+  --sign-color: #645E9D;
+}
+
+.fire /*Aries Leo Sagittarius*/
+{
+  --type-color: #880D1E;
+}
+
+.earth /*Taurus Virgo Capricorn*/
+{
+  --type-color: #4C2719;
+}
+
+.air /*Gemini Libra Aquarius*/
+{
+  --type-color: #5A5353;
+}
+
+.water /*Cancer Scorpio Pisces*/
+{
+  --type-color: #392B58;
+}
