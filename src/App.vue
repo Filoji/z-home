@@ -1,18 +1,21 @@
 <script setup lang="ts">
-import Post from "./components/Post.vue";
-import { getPosts } from "@/posts";
-const posts = getPosts();
+import Feed from "@/components/Feed.vue";
+import Header from "@/components/Header.vue";
 </script>
 
 <template>
   <header>
+    <Header class="virgo"/>
   </header>
   <main>
-    <div class="feed">
-      <Post v-for="post in posts" :user="post.user">{{ post.message }}</Post>
-    </div>
+    <Feed />
   </main>
 </template>
 
 <style scoped>
+header
+{
+  position: sticky;
+  top: 0;
+}
 </style>
